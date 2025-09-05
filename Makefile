@@ -23,7 +23,7 @@ confirm:
 .PHONY: run
 run:
 	@echo 'Start the app in development mode...'
-	@go run ./cmd/app
+	@go run ./cmd/app -env=dev
 
 # ==================================================================================== #
 # QUALITY CONTROL
